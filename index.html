@@ -22,7 +22,7 @@ pega.web.config.encrypt=false;
 <!-- ********************** Begin Pega content ********************** -->
 <hr>
 <tr><h2>My Work</h2></tr>
-<div id="PegaGadgetA" style="overflow:auto;width:80%;height:300px;margin:auto;"
+<div id="PegaGadgetA" style="overflow:auto;width:80%;height:100%;margin:auto;"
 data-pega-gadgetname ='PWGadgetA' 
 data-pega-action ='display' 
 data-pega-action-param-harnessname = "pyCWPortalContent"
@@ -51,12 +51,13 @@ var PWGadgetA = {
 };
 </script> 
 </div>
-<div id="PegaGadgetB" style="overflow:auto;width:80%;height:1200px;margin:auto;"
+<div id="PegaGadgetB" style="overflow:auto;width:80%;height:100%;margin:auto;"
 data-pega-gadgetname ='PWGadgetB'
 data-pega-threadname ='ThreadB'
 data-pega-applicationname ='SSMECredit' 
 data-pega-systemid ='pega'
 data-pega-resizetype ='stretch' 
+data-pega-pega_onload = 'window.scroll(0,0)'
 data-pega-url ='https://pega-10x1-sit.se.scb.co.th/prweb/PRServlet' 
 data-pega-redirectguests ='true'
 data-pega-action-param-parameters ="{UserIdentifier:'test_user_12',Password:btoa('rules@1234567')}">
